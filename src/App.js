@@ -1,13 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 import React from 'react'
+import Header from './components/header/header';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+    <Header />
+    </>
+
   )
 }
 
